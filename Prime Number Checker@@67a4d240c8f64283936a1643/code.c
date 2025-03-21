@@ -1,10 +1,10 @@
 #include <stdio.h>
 int isPrime(int num){
-    if (t < 2) {
+    if (num < 2) {
         return 0;
     }
-     for (int i = 2; i < t; i++) {
-        if (t % i == 0) {
+     for (int i = 2; i < num; i++) {
+        if (num % i == 0) {
             return 0;
         }
     }
@@ -12,11 +12,11 @@ int isPrime(int num){
 }
 int main(){
     int t;
-    scanf("%d",&t);
+    scanf("%d", &t);
     while(t<2){
     int num;
-    scanf("%d",&num);
-    printf("%d\n",isPrime(num));
+    scanf("%d", &num);
+    printf("%d\n", isPrime(num));
     }
     return 0;
 }
