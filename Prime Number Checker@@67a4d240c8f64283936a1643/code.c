@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <math.h> // For sqrt()
+#include <math.h>  // For sqrt()
 
 // Function to check if a number is prime
 int isPrime(int num) {
     if (num < 2) {
-        return 0; // 0 and 1 are not prime
+        return 0;  // 0 and 1 are not prime
     }
     for (int i = 2; i * i <= num; i++) {  // Check up to sqrt(num)
         if (num % i == 0) {
@@ -12,15 +12,4 @@ int isPrime(int num) {
         }
     }
     return 1;  // Prime number
-}
-
-int main() {
-    int t;
-    scanf("%d", &t);
-    while (t--) {
-        int num;
-        scanf("%d", &num);
-        printf("%d\n", isPrime(num));
-    }
-    return 0;
 }
