@@ -12,4 +12,5 @@ int main(){
     scanf("%d",&n);
     int prime=check(n);
     printf("%d",prime);
+    return 0;
 }
