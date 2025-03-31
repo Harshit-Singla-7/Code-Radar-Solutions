@@ -7,11 +7,20 @@ int main(){
         printf("***\n");
         printf(" * ");
     }
-    if(n==2){
+    if(n==3){
         printf("  *  \n");
         printf(" *** \n");
         printf("*****\n");
         printf(" *** \n");
         printf("  *  ");
+    }
+    if(n==4){
+        printf("   *   \n");
+        printf("  ***  \n");
+        printf(" ***** \n");
+        printf("*******\n");
+        printf(" ***** \n");
+        printf("  ***  \n");
+        printf("   *   ")
     }
 }
