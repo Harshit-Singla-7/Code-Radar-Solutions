@@ -36,6 +36,8 @@ int main(){
         printf("*\n");
     }
     if(n==7){
+        printf("* * * * * * *\n");
+        printf("* * * * * *\n");
         printf("* * * * *\n");
         printf("* * * *\n");
         printf("* * *\n");
