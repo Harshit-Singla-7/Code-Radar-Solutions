@@ -2,7 +2,7 @@
 int main(){
     int n;
     if(n==1){
-        printf("*");
+        printf(" * ");
     }
     return 0;
 }
