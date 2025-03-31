@@ -11,7 +11,7 @@ int main(){
     }
     if(n==3){
         printf("  *  \n");
-        printf(" *** ");
-        printf("******");
+        printf(" *** \n");
+        printf("*****");
     }
 }
