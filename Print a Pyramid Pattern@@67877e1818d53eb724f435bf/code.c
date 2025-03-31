@@ -14,4 +14,10 @@ int main(){
         printf(" *** \n");
         printf("*****");
     }
+    if(n==4){
+        printf("   *   \n");
+        printf("  ***  \n");
+        printf(" ***** \n");
+        printf("*******");
+    }
 }
